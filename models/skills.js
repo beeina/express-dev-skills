@@ -30,6 +30,6 @@ module.exports = {
       // All properties attached to req.params are strings
       id = parseInt(id);
       //find the index based on the id of 
-      const idx = skills.findIndex(skill => skill.id === id)
-      skills.splice(idx, 1)
+      const idx = skills.findIndex(skill => skill.id === id);
+      skills.splice(idx, 1);
   }
