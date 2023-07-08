@@ -38,7 +38,7 @@ function create(req,res) {
   res.redirect("/skills");
 }
 
-function deleteSkill (req,res) {
+function deleteSkill (req, res) {
   skill.deleteOne(req.params.id);
   res.redirect("/skills");
 }
